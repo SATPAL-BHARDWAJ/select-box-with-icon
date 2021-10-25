@@ -42,7 +42,7 @@ like if you create element `#select-action` then you can get value like this
 Nothing complicated.
 
 # Support us
-To support my free tutorials and source code you can consider your next hosting purchase with my affiliate link. It will not cost you anything extra but it will give me a small amount of commission. Here is my Hotinger affilate link [Hostinger](https://www.hostg.xyz/SH6KQ).
+<a href="https://www.hostg.xyz/SH6KQ"><img src="Support us.png" alt="To support my free tutorials and source code you can consider your next hosting purchase with my affiliate link. It will not cost you anything extra but it will give me a small amount of commission"/></a>
 
 # Contributor
 [Satpal Bhardwaj](https://sbsharma.com/ionic/)
