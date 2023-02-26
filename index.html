@@ -13,7 +13,7 @@
 <body>
     
   <div class="container mt-5 position-relative">
-      
+    <form action="go.php" method="post">
     <div class="row">
       <div class="col-md-5">
         <select id="example" name="currency">
@@ -26,21 +26,21 @@
       <div class="col-md-2"></div>
 
       <div class="col-md-5">
-        <select id="example2" name="action">
+        <select class="example2" name="action">
           <option value="user" data-icon="fa fa-user"> User Account </option>
           <option value="book" data-icon="fa fa-book"> Books Gallery </option>
           <option value="key" data-icon="fa fa-key"> Dashboard </option>
         </select>
       </div>
     </div>
-      
+  </form>
   </div>
 
   <script src="custom-selectbox.js"></script>
 
   <script>
     $('#example').IconSelectBox(true); // isImg: boolean 
-    $('#example2').IconSelectBox(false); // isImg: boolean 
+    $('.example2').IconSelectBox(false); // isImg: boolean 
   </script>
 </body>
 </html>

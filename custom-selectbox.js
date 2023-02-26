@@ -1,6 +1,11 @@
 jQuery.fn.extend({
   IconSelectBox: function ( img ) {
     
+    if ( !this.prop('id') ) {
+      console.error('Element id not found!');
+      return;
+    }
+
     var defaultSelect = '#'+this.prop('id');
     var optionArray = [];
     // convert id to class if id given as selector
@@ -11,7 +16,7 @@ jQuery.fn.extend({
 
       var button = document.createElement('button');
       button.classList = btn_select +'-select-box';
-      
+      button.type = "button";
       var div = document.createElement('div');
       div.classList = btn_select +'-b';
     
